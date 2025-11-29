@@ -1,0 +1,11 @@
+@baseUrl = https://localhost:3000
+
+### 200 OK
+GET {{baseUrl}}/
+Accept: application/json
+
+### 200 OK
+GET {{baseUrl}}/people
+Accept: application/json
+
+###
